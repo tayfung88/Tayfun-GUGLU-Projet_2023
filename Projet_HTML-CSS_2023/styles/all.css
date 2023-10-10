@@ -1,0 +1,130 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins';font-size: 22px;
+    margin: auto;
+    width: 80%;
+    color: #ffffff;
+}
+
+img {
+    max-width: 100%;
+}
+
+#logo {
+    margin-top: 1rem;
+    width: 40rem;
+}
+
+header nav {
+    display: flex;
+    flex-basis: 100%;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 1rem;
+    background: linear-gradient(to right, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0));
+    width: 40rem;
+    padding: 1rem;
+}
+
+nav a {
+    font: 2rem bold;
+    color: #ffffff;
+    text-decoration: none;
+    margin-left: 1rem;
+    color: #ffffff;
+}
+
+nav a:hover {
+    color: bisque;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+a:hover {
+    color: bisque;
+}
+
+.links {
+    color: rgb(140, 120, 0);
+    text-decoration: underline;
+    padding-bottom: 5px;
+}
+
+.links:hover {
+    color: brown;
+}
+
+h1 {
+    font-weight: 300;
+}
+
+h2 {
+    font-size: 3.5rem;
+}
+
+.menu {
+    text-decoration: underline;
+}
+
+footer div {
+    background: linear-gradient(to left, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0));
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 1rem;
+}
+
+footer div a {
+    margin-right: 1rem;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+
+/************************* RESPONSIVE *************************/
+
+@media screen and (max-width: 860px) {
+
+    h2 {
+        font-size: 2rem;
+    }
+
+    header nav {
+        max-width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 1rem;
+        background: linear-gradient(to right, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0));
+        width: 40rem;
+        padding: 1rem;
+    }
+
+    footer div {
+        max-width: 100%;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        background: linear-gradient(to left, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0));
+        width: 40rem;
+        padding: 1rem;
+    }
+
+    footer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+}

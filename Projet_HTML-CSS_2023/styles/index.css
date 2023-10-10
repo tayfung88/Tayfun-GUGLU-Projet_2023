@@ -1,0 +1,167 @@
+/* * {
+    box-sizing: border-box;
+} */
+
+.index {
+    background-image: url(../medias/wow_bg_test.jpg);
+    background-size: cover;
+}
+
+main {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+#introImg {
+    border-radius: 10%;
+    width: 100%;
+    height: 100%;
+}
+
+#intro {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+aside {
+    margin-left: 1rem;
+    flex-basis: 100%;
+}
+
+aside h2 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+aside p {
+    margin-top: 5px;
+}
+
+#capitale {
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: center;
+    flex-direction: row;
+}
+
+#capitale img {
+    /* width: 15rem;
+    height: 25rem; */
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border-radius: 5rem;
+
+    opacity: 1;
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+
+#capitale img:hover {
+    opacity: .8;
+    -webkit-transform: scale(1.1);
+	transform: scale(1.1);
+}
+
+#capitale article {
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+    padding: 1rem;
+}
+
+#capitale h2 {
+    text-align: center;
+    text-decoration: none;
+    margin-bottom: 0.8rem;
+    -webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+
+#capitale h2:hover {
+    -webkit-transform: scale(1.5);
+	transform: scale(1.5);
+}
+
+#capitale p {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem; 
+    text-align: center;
+} 
+
+
+/************************* RESPONSIVE *************************/
+
+@media screen and (max-width: 860px) {
+
+    h1 {
+        font-size: 2.5rem;
+        margin-bottom: 0;
+    }
+
+    p {
+        font-size: 1rem;
+        margin-top: 0;
+    }
+
+
+    main {
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+    }
+
+    #intro {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        flex-wrap: nowrap;
+        align-items: flex-start;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    aside {
+        margin-left: 0;
+    }
+
+    #capitale {
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    #capitale article {
+        margin-top: 0;
+        margin-bottom: 0.5rem;
+    }
+
+    #capitale h2 {
+        margin-top: 0;
+        margin-bottom: 0;
+        font-size: 2rem;
+    }
+
+    #capitale p {
+        margin-top: 0;
+        margin-bottom: 0;
+        font-size: 1rem;
+    }
+
+
+
+}
+

@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Orgrimmar</title>
+
+    <!-- Liens -->
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <link rel="stylesheet" href="styles/all.css">
+    <link rel="stylesheet" href="styles/pages.css">
+    <script src="script.js" defer></script>
+</head>
+<body class="pageOne">
+    <!-- Header -->
+    <header>
+        <img id="logo" src="medias\World_of_Warcraft_Logo.png" alt="Logo Wow">
+
+        <nav>
+            <a href="index.html" class="menu">Menu</a>
+            <a href="page_1.html">Orgrimmar</a>
+            <a href="page_3.html">Dalaran</a>
+            <a href="page_2.html">Hurlevent</a>
+        </nav>
+    </header>
+
+    <div class="intro">
+        <img src="medias/Horde_Crest.webp" alt="">
+        <div>
+        <h1>Orgrimmar : Le Cœur de la Horde</h1>
+        <!-- <p>Découvrez la capitale emblématiques de la Horde !</p> -->
+        <p class="detailsCapi">Orgrimmar, la capitale de la Horde, est un symbole de puissance et de solidarité. Située dans la région aride de Durotar, cette cité imposante est le foyer des Orcs et de leurs alliés, un lieu où la culture et l'héritage de la Horde sont célébrés. De ses imposantes structures en bois aux forges tonitruantes, Orgrimmar respire la force et l'unité de ce peuple fier.</p>
+      </div>
+    </div>
+
+    <section class="imgCapi">
+        <img src="medias/Orgrimmar_page.jpg" alt="">
+        <img src="medias/WordMap_Orgri_page.jpg" alt="">
+    </section>
+
+    <section class="infoCapi">
+        <h2>Orgrimmar : Chef de guerre de la Horde</h2>
+        <p>Découvrez les Chefs de guerre de la Horde, des leaders puissants qui incarnent la force et la détermination des Orcs et de leurs alliés. Chargés de guider la Horde vers un avenir glorieux, les Chefs de guerre sont un symbole de leadership et d'unité, représentant les valeurs de courage, d'honneur et de loyauté. Explorez leurs histoires et leur impact sur Azeroth.</p>
+    </section>
+    
+    <!-- Main --> 
+    <main>
+        <!-- <div class="slider-container">
+            <div class="menu">
+                <label for="slide-dot-1"></label>
+                <label for="slide-dot-2"></label>
+                <label for="slide-dot-3"></label>
+                <label for="slide-dot-4"></label>
+                <label for="slide-dot-5"></label>
+                <label for="slide-dot-6"></label>
+                <label for="slide-dot-7"></label>
+            </div>
+
+            <input class="slide-input" id="slide-dot-1" type="radio" name="slides" checked>
+            <img class="slide-img" src="medias/Slider_Blackhand.jpg">
+
+            <input class="slide-input" id="slide-dot-2" type="radio" name="slides">
+            <img class="slide-img" src="medias/Slider_OrgrimDH.jpg">
+
+            <input class="slide-input" id="slide-dot-3" type="radio" name="slides">
+            <img class="slide-img" src="medias/Slider_Ner'zhul.jpg">
+
+            <input class="slide-input" id="slide-dot-4" type="radio" name="slides">
+            <img class="slide-img" src="medias/Slider_Thrall.jpg">
+
+            <input class="slide-input" id="slide-dot-5" type="radio" name="slides">
+            <img class="slide-img" src="medias/Slider_Garrosh.jpg">
+
+            <input class="slide-input" id="slide-dot-6" type="radio" name="slides">
+            <img class="slide-img" src="medias/Slider_Vol'jin.jpg">
+
+            <input class="slide-input" id="slide-dot-7" type="radio" name="slides">
+            <img class="slide-img" src="medias/Slider_Sylvanas.jpg">
+
+        </div> -->
+
+        <div class="slide-container">
+            <div class="custom-slider fade">
+                <div class="slide-index">1 / 7</div>
+                <img class="slide-img" src="medias/Slider_Blackhand.jpg">
+                <div class="slide-text">Blackhand</div>
+            </div>
+            <div class="custom-slider fade">
+                <div class="slide-index">2 / 7</div>
+                <img class="slide-img" src="medias/Slider_OrgrimDH.jpg">
+                <div class="slide-text">Orgrim Doomhammer</div>
+            </div>
+            <div class="custom-slider fade">
+                <div class="slide-index">3 / 7</div>
+                <img class="slide-img" src="medias/Slider_Ner'zhul.jpg">
+                <div class="slide-text">Ner'Zhul</div>
+            </div>
+            <div class="custom-slider fade">
+                <div class="slide-index">4 / 7</div>
+                <img class="slide-img" src="medias/Slider_Thrall.jpg">
+                <div class="slide-text">Thrall</div>
+            </div>
+            <div class="custom-slider fade">
+                <div class="slide-index">5 / 7</div>
+                <img class="slide-img" src="medias/Slider_Garrosh.jpg">
+                <div class="slide-text">Garrosh Hellscream</div>
+            </div>
+            <div class="custom-slider fade">
+                <div class="slide-index">6 / 7</div>
+                <img class="slide-img" src="medias/Slider_Vol'jin.jpg">
+                <div class="slide-text">Vol'Jin</div>
+            </div>
+            <div class="custom-slider fade">
+                <div class="slide-index">7 / 7</div>
+                <img class="slide-img" src="medias/Slider_Sylvanas.jpg">
+                <div class="slide-text">Sylvanas Windrunner</div>
+            </div>
+
+
+            <a class="prev" onclick="plusSlides(-1)">❮</a>
+            <a class="next" onclick="plusSlides(1)">❯</a>
+        </div>
+        
+        <div class="slide-dot">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+            <span class="dot" onclick="currentSlide(4)"></span>
+            <span class="dot" onclick="currentSlide(5)"></span>
+            <span class="dot" onclick="currentSlide(6)"></span>
+            <span class="dot" onclick="currentSlide(7)"></span>
+        </div> 
+    </main>
+
+    <!-- Tableau -->
+    <div class="tableau">
+        <table>
+            <thead>
+              <tr>
+                <th></th>
+                <th>Noms</th>
+                <th>Hauts faits</th>
+                <th>Durée</th>
+                <th>Puissance</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><img src="medias/portrait_blackhand.jpg" alt=""></td>
+                <td>Blackhand</td>
+                <td>Trash</td>
+                <td>De -10 à 10, ~20ans</td>
+                <td>Yamcha</td>
+              </tr>
+              <tr>
+                <td><img src="medias/portrait_orgrim.jpg" alt=""></td>
+                <td>Orgrim Doomhammer</td>
+                <td>Haut fait 2</td>
+                <td>De 10 à 22, ~12ans</td>
+                <td>Over 9000!</td>
+              </tr>
+              <tr>
+                <td><img src="medias/portrait_ner'zul.jpg" alt=""></td>
+                <td>Ner'Zhul</td>
+                <td>Maitre de Gul'Dan <br>First Lich King</td>
+                <td>De 22 à 31, ~9ans</td>
+                <td>???</td>
+              </tr>
+              <tr>
+                <td><img src="medias/portrait_thrall.jpg" alt=""></td>
+                <td>Thrall (Go'el)</td>
+                <td>Fight Deathwing!</td>
+                <td>De 31 à 38, ~7ans</td>
+                <td>120M (congélateur)</td>
+              </tr>
+              <tr>
+                <td><img src="medias/portrait_garrosh.jpg" alt=""></td>
+                <td>Garrosh</td>
+                <td>POUR LA HORDE!</td>
+                <td>De 38 à 40, ~2ans</td>
+                <td>Chauve = Saitama (Dieu)</td>
+              </tr>
+              <tr>
+                <td><img src="medias/portrait_vol'jin.jpg" alt=""></td>
+                <td>Vol'Jin</td>
+                <td>...</td>
+                <td>De 40 à 42, ~2ans</td>
+                <td>Tenshinhan</td>
+              </tr>
+              <tr>
+                <td><img src="medias/portrait_sylvanas.jpg" alt=""></td>
+                <td>Sylvanas Windrunner</td>
+                <td>blablabla</td>
+                <td>De 42 à 45, ~3ans</td>
+                <td>...</td>
+              </tr>
+            </tbody>
+          </table>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div>
+        <a href="index.html" class="menu">Menu</a>
+        <a href="page_1.html">Orgrimmar</a>
+        <a href="page_3.html">Dalaran</a>
+        <a href="page_2.html">Hurlevent</a>
+        </div>
+        <p>&#169; 2023 GUGLU Tayfun</p>
+    </footer>
+</body>
+</html>

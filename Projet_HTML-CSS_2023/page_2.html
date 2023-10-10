@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hurlevent</title>
+
+    <!-- Liens -->
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <link rel="stylesheet" href="styles/all.css">
+    <link rel="stylesheet" href="styles/pages.css">
+    <script src="script.js" defer></script>
+</head>
+<body class="pageTwo">
+    <!-- Header -->
+    <header>
+        <img id="logo" src="medias\World_of_Warcraft_Logo.png" alt="Logo Wow">
+
+        <nav>
+            <a href="index.html" class="menu">Menu</a>
+            <a href="page_1.html">Orgrimmar</a>
+            <a href="page_3.html">Dalaran</a>
+            <a href="page_2.html">Hurlevent</a>
+        </nav>
+    </header>
+
+    <div class="intro">
+        <img src="medias/Alliance Sign.png" alt="">
+        <div>
+        <h1>Hurlevent : Le Bastion de l'Alliance</h1>
+        <!-- <p>Découvrez la capitale emblématiques de l'Alliance !</p> -->
+        <p class="detailsCapi">Hurlevent, la majestueuse capitale de l'Alliance, incarne la grandeur et la résilience. Nichée dans la région d'Elwynn, cette cité rayonne de raffinement et d'ordre. Avec ses hautes tours, ses jardins soignés et sa riche histoire, Hurlevent symbolise l'alliance des différentes races qui la composent. C'est un endroit où la diversité se transforme en force, une forteresse de la lumière et du courage.</p>
+        </div>
+    </div>
+
+    <section class="imgCapi">
+        <img src="medias/Stormwind_page.jpg" alt="">
+        <img src="medias/WordMap_Stormwind_page.jpg" alt="">
+    </section>
+
+    <section class="infoCapi">
+        <h2>Hurlevent : Roi de l'Alliance</h2>
+        <p>Plongez dans l'histoire du Roi de l'Alliance, un dirigeant emblématique qui symbolise l'unité et la résilience des différentes races de l'Alliance. Porteur de la couronne, le Roi est chargé de défendre Hurlevent et de guider son peuple vers un avenir prospère. Découvrez son rôle essentiel, ses accomplissements et l'influence qu'il a exercée sur l'Alliance et sur Azeroth elle-même.</p>
+    </section>
+
+    <!-- Main --> 
+    <main>
+        <!-- <div class="slider-container">
+            <div class="menu">
+                <label for="slide-dot-1"></label>
+                <label for="slide-dot-2"></label>
+            </div>
+
+            <input class="slide-input" id="slide-dot-1" type="radio" name="slides" checked>
+            <img class="slide-img" src="medias/Slider_Blackhand.jpg">
+
+            <input class="slide-input" id="slide-dot-2" type="radio" name="slides">
+            <img class="slide-img" src="medias/Slider_OrgrimDH.jpg">
+        </div> -->
+
+        <div class="slide-container">
+            <div class="custom-slider fade">
+                <div class="slide-index">1 / 2</div>
+                <img class="slide-img" src="medias/Slider_Varian.jpg">
+                <div class="slide-text">Varian Wrynn</div>
+            </div>
+            <div class="custom-slider fade">
+                <div class="slide-index">2 / 2</div>
+                <img class="slide-img" src="medias/Slider_Anduin.jpg">
+                <div class="slide-text">Anduin Wrynn</div>
+            </div>
+
+            <a class="prev" onclick="plusSlides(-1)">❮</a>
+            <a class="next" onclick="plusSlides(1)">❯</a>
+        </div>
+        
+        <div class="slide-dot">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+        </div> 
+    </main>
+
+    <!-- Tableau -->
+    <div class="tableau">
+        <table>
+            <thead>
+              <tr>
+                <th></th>
+                <th>Noms</th>
+                <th>Hauts faits</th>
+                <th>Durée</th>
+                <th>Puissance</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><img src="medias/portrait_varian.jpg" alt=""></td>
+                <td>Varian</td>
+                <td>Reconquête de Hurlevent</td>
+                <td>De 26 à 27, ~1ans (enlevement) <br>De 27 à 32, ~5ans (retour)</td>
+                <td>???</td>
+              </tr>
+              <tr>
+                <td><img src="medias/portrait_anduin.jpg" alt=""></td>
+                <td>Anduin</td>
+                <td>Leadership pendant la Quatrième Guerre</td>
+                <td>De 32 à 45, ~13ans</td>
+                <td>Boss</td>
+              </tr>
+            </tbody>
+          </table>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div>
+        <a href="index.html" class="menu">Menu</a>
+        <a href="page_1.html">Orgrimmar</a>
+        <a href="page_3.html">Dalaran</a>
+        <a href="page_2.html">Hurlevent</a>
+        </div>
+        <p>&#169; 2023 GUGLU Tayfun</p>
+    </footer>
+    
+</body>
+</html>
